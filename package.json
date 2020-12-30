@@ -61,6 +61,7 @@
     "@typescript-eslint/parser": "4.3.0",
     "babel-jest": "26.2.2",
     "cypress": "^5.5.0",
+    "cypress-react-unit-test": "^4.17.2",
     "dotenv": "6.2.0",
     "eslint": "7.10.0",
     "eslint-config-prettier": "6.0.0",
