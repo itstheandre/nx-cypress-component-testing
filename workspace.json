@@ -185,11 +185,7 @@
         "test": {
           "executor": "@nrwl/workspace:run-commands",
           "options": {
-            "commands": [
-              "echo 'hello'",
-              "ls",
-              "cypress run --config-file ./cypress.json"
-            ],
+            "commands": ["cypress run --config-file cypress.json"],
             "cwd": "libs/ui"
           }
         },
