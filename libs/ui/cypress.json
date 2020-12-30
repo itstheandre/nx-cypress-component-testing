@@ -2,5 +2,8 @@
   "experimentalComponentTesting": true,
   "componentsFolder": "./src",
   "testFiles": "**/*.spec.tsx",
-  "fixturesFolder": false
+  "fixturesFolder": false,
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "pluginsFile": "./cypress/plugins/index.js",
+  "supportFile": "./cypress/support/index.js"
 }
